@@ -16,6 +16,28 @@ a{
     color: inherit;
 }
 
+ul{
+    list-style: none;
+}
+
+.section-page{
+    padding: 100px 0;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .header{
     background-image: url('../images/header_bg.jpg');
     height: 100vh;
@@ -59,4 +81,31 @@ a{
 
 .logo{
     padding-top: 178px;
+}
+
+.about__inner{
+    display: flex;
+}
+
+.about__info{
+    width: 375px;
+    margin-right: 50px;
+    flex: none;
+}
+
+.about__info-item {
+    margin-bottom: 25px;
+    color: #E5E5E5;
+}
+
+.about__info-item span{
+    display: block;
+}
+
+.about__text{
+    
+}
+
+.about__text p{
+    margin-bottom: 25px;
 }
