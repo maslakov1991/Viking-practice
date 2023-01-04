@@ -109,3 +109,43 @@ ul{
 .about__text p{
     margin-bottom: 25px;
 }
+
+.video{
+    background-image: url('../images/video_bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: right;
+}
+
+.video__text{
+    padding-top: 444px;
+    margin-bottom: 40px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    color: #85CCDC;
+}
+
+.video__text span{
+    display: block;
+    padding-right: 285px;
+}
+
+.video__btn{
+    padding-left: 112px;
+    position: relative;
+    margin-right: 230px;
+}
+
+.video__btn::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: -40px;
+    background-image: url('../images/youtube.svg');
+}
