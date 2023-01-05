@@ -207,3 +207,16 @@ ul{
     z-index: 2;
 }
 
+.characters__inner{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.characters__slider-img{
+    max-width: 775px;
+}
+
+.characters__text{
+    max-width: 350px;
+}
