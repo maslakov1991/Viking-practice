@@ -149,3 +149,61 @@ ul{
     top: -40px;
     background-image: url('../images/youtube.svg');
 }
+
+.seasons__inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 100px 75px;
+    counter-reset: number;
+    list-style: none;
+}
+
+.seasons__item{
+    width: 350px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seasons__item:hover .seasons__link{
+    opacity: 1;
+}
+
+.seasons__item:hover::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(14, 14, 14, 0.8);
+}
+
+.seasons__item::before{
+    content: '0' counter(number);
+    counter-increment: number;
+    position: absolute;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    color: #600E09;
+    left: 0;
+    top: -73px;
+    z-index: -1;
+}
+
+.seasons__link{
+    font-size: 36px;
+    line-height: 42px;
+    padding: 12px 78px 11px;
+    background-color: #0E0E0E;
+    opacity: 0;
+    transition: all .3s;
+    z-index: 2;
+}
+
