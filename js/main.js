@@ -1,11 +1,11 @@
 $(function(){
 
-    $('[data-fancybox]').fancybox({
-        youtube: {
-            controls: 0,
-            showinfo: 0
-        },
-    });
+    // $('[data-fancybox]').fancybox({
+    //     youtube: {
+    //         controls: 0,
+    //         showinfo: 0
+    //     },
+    // });
 
     $('.characters__slider-img').slick({
         slidesToShow: 1,
