@@ -74,7 +74,8 @@ ul{
     line-height: 42px;
 }
 
-.menu__list-link:hover{
+.menu__list-link:hover,
+.menu__list-link--active{
     color: #85CCDC;
     text-decoration: underline;
 }
@@ -257,3 +258,9 @@ ul{
     padding: 14px 0 15px;
     text-align: center;
 }
+
+/* -----------SEASON-1 START------------ */
+
+
+
+/* -----------SEASON-1 END------------ */
