@@ -19,6 +19,7 @@ $(function(){
         slidesToScroll: 1,
         fade: true,
         asNavFor: '.characters__slider-img',
+        arrows: false
     });
 
 });
