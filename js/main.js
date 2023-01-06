@@ -6,6 +6,9 @@ $(function(){
     //         showinfo: 0
     //     },
     // });
+    $('.menu__btn').on('click', function () {
+        $('.menu__list').toggleClass('menu__list--active')
+    });
 
     $('.characters__slider-img').slick({
         slidesToShow: 1,
@@ -23,6 +26,7 @@ $(function(){
             },
         ]
     });
+
     $('.characters__slider-text').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
